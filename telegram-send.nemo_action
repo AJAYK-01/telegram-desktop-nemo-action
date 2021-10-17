@@ -1,0 +1,11 @@
+[Nemo Action]
+Name=Send to Telegram
+Comment=Sends the file to Telegram Chat
+Quote=double
+Exec=<telegram-send.sh %F>
+Icon-Name=mail-attachment-symbolic
+Selection=NotNone
+Extensions=nodirs;
+Dependencies=telegram-desktop
+Separator=/#/
+
