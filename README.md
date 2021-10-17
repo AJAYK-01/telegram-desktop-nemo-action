@@ -1,2 +1,7 @@
-# telegram-desktop-nemo-action
+# Telegram Desktop Nemo Action
 Telegram Action to integrate "Send to Telegram" for Nemo File Manager
+
+Recent Telegram update allows you to send files through the "send-to" menu in Windows. This action adds a similar feature to Nemo File Manager in Linux.
+
+- Download telegram-send.sh and make it executable
+- Just copy [telegram-send.nemo_action](https://github.com/AJAYK-01/telegram-desktop-nemo-action/blob/main/telegram-send.nemo_action) and [telegram-send.sh](https://github.com/AJAYK-01/telegram-desktop-nemo-action/blob/main/telegram-send.sh) files to ```/usr/share/nemo/actions``` folder (you will need sudo access to copy to this folder)
