@@ -1,6 +1,8 @@
 [Nemo Action]
 Name=Send to Telegram
+Name[pl]=Wyślij przez Telegram
 Comment=Sends the file to Telegram Chat
+Comment[pl]=Wysyła ten plik na czat w Telegramie
 Quote=double
 Exec=<telegram-send.sh %F>
 Icon-Name=mail-attachment-symbolic
