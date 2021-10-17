@@ -1,16 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/env sh
 
-arr=()
-SAVEIFS=$IFS
-IFS=$(echo -en "\n\b")
-
-for var in "$@"
-do
-    path=$(readlink -f $var)
-    arr+=($path)
-done
-
-telegram-desktop -sendpath "${arr[@]}"
+telegram-desktop -sendpath "$@"
 wmctrl -x -a Telegram.TelegramDesktop
-
-IFS=$SAVEIFS
