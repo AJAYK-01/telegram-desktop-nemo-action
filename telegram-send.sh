@@ -10,7 +10,13 @@ do
     arr+=($path)
 done
 
-telegram-desktop -sendpath "${arr[@]}"
-wmctrl -x -a Telegram.TelegramDesktop
+# Check if the client is a native app
+if [ $(command -v telegram-desktop) ]; then
+    telegram-desktop -sendpath "${arr[@]}"
+    wmctrl -x -a Telegram.TelegramDesktop
+else
+    flatpak run --file-forwarding org.telegram.desktop -sendpath @@ "${arr[@]}" @@
+    wmctrl -x -a Telegram
+fi
 
 IFS=$SAVEIFS
