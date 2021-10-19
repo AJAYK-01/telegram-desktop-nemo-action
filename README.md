@@ -8,6 +8,8 @@ Recent Telegram update allows you to send files through the "send-to" menu in Wi
 
 #### For Nautilus (default file manager in Ubuntu, other GNOME distros) add the [telegram-send.sh](https://github.com/AJAYK-01/telegram-desktop-nemo-action/blob/main/telegram-send.sh) script to nautilus-actions by referring [this](https://unix.stackexchange.com/questions/91876/is-it-possible-to-add-an-item-to-the-nautilus-right-click-menu-in-centos) OR follow this [reddit comment](https://www.reddit.com/r/Telegram/comments/qa01v1/comment/hh0ihqv/?utm_source=share&utm_medium=web2x&context=3) if you don't want to install nautilus-actions.
 
+#### Follow instructions in [this comment](https://www.reddit.com/r/Telegram/comments/qa01v1/comment/hh6yd8f/) to get it working on Pantheon Files! (Elementary OS)
+
 ![telegram-cloud-photo-size-5-6296354676945301009-x](https://user-images.githubusercontent.com/55079486/137632637-5d945fe1-c439-40e3-974c-172bad9f66dc.jpg)
 
 Thanks to https://medium.com/@konchunas/telegram-file-sharing-from-command-line-9a3f593bcf4e
