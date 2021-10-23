@@ -10,6 +10,6 @@ Recent Telegram update allows you to send files through the "send-to" menu in Wi
 
 #### Follow instructions in [this comment](https://www.reddit.com/r/Telegram/comments/qa01v1/comment/hh6yd8f/) to get it working on Pantheon Files! (Elementary OS)
 
-![telegram-cloud-photo-size-5-6296354676945301009-x](https://user-images.githubusercontent.com/55079486/137632637-5d945fe1-c439-40e3-974c-172bad9f66dc.jpg)
+![telegram-cloud-photo-size-5-6296354676945301009-x](https://user-images.githubusercontent.com/55079486/138554522-1aac075e-6e24-4f66-9a74-394e47435f54.png)
 
 Thanks to https://medium.com/@konchunas/telegram-file-sharing-from-command-line-9a3f593bcf4e
